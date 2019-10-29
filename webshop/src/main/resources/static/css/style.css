@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table thead th {
+    border: 1px solid black;
+}
+
+table tbody td {
+    border-right: 1px solid black;
+    
+}
