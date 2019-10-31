@@ -1,17 +1,36 @@
+table td {
+
+    padding-right: 10px;
+}
+
+.crop {
+
+    max-width:650px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
 h1 {
-    color: red;
+
+    color: rgb(74, 175, 71);
 }
 
-table {
-    border-collapse: collapse;
-    border: 1px solid black;
+nav#navbar {
+
+    margin-bottom: 2em;
 }
 
-table thead th {
-    border: 1px solid black;
-}
-
-table tbody td {
-    border-right: 1px solid black;
+#priceInput {
     
+    min-width: 200px;
+
+}
+
+#navbar {
+    box-shadow: 0px 0px 11px 4px #464646;
+}
+
+table thead #priceTableHeader {
+    width: 90px;
 }
